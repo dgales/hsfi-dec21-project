@@ -23,3 +23,19 @@ $("#info-button").click(function(){
     $('.all-content').hide();
     $('#info-content').show();
 });
+
+
+$("#dark-button").click(function(){
+    $('.all-content').hide();
+    $('#dark-content').show();
+    $('body').css("background-color","black");
+    
+});
+$("#past-button").click(function(){
+    $('.all-content').hide();
+    $('#past-content').show();
+});
+$("#dnp").click(function(){
+    alert("I told you not to press the button");
+    $('.all-content').hide();
+    });
